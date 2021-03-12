@@ -1,0 +1,144 @@
+/* DISPLAY ON TABLET */
+
+@media only screen and (max-width: 1200px) {
+  /* header */
+
+  .header-list a {
+    line-height: 30px;
+    margin: 10px;
+    padding: 0;
+  }
+
+  /* main */
+  .top-wrapper {
+    max-width: 100%;
+    height: 400px;
+    margin: 0 auto;
+  }
+  .top-wrapper h1 {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  .top-wrapper p {
+    font-size: 15px;
+  }
+
+  .history-wrapper {
+    height: 100%;
+    margin-bottom: 100px;
+  }
+
+  .majors-wrapper {
+    height: 100vh;
+  }
+
+  .majors {
+    width: 50%;
+    float: left;
+  }
+
+  /* footer */
+  .center {
+    display: none;
+  }
+
+  /*  */
+}
+
+/* DISPLAY ON HP */
+@media only screen and (max-width: 600px) {
+  /* header */
+
+  .header-list a {
+    display: none;
+  }
+
+  .header-logo {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navigasi {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .navigasi a {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: o;
+  }
+
+  .navigasi:hover span.nav-list {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    background-color: #777;
+    color: #fff;
+  }
+
+  span.nav-list {
+    display: none;
+    height: 30px;
+    border-bottom: solid white;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  /*  */
+  /* main */
+  .top-wrapper {
+    min-height: 400px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 30px;
+  }
+
+  .top-wrapper p {
+    margin-top: 10px;
+  }
+
+  .history-wrapper {
+    height: 100%;
+    margin-bottom: 200px;
+  }
+  .majors-wrapper {
+    height: 1600px;
+  }
+
+  .majors {
+    width: 100%;
+    float: left;
+  }
+  .majors img {
+    margin-bottom: -30px;
+  }
+  .majors p {
+    margin-bottom: 100px;
+  }
+
+  /* */
+  /* footer */
+  .right {
+    position: relative;
+    left: -10px;
+    float: none;
+  }
+  /*  */
+}
